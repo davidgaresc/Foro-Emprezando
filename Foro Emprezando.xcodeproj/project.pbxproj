@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5529203C1BE0069300B0E457 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5529203B1BE0069300B0E457 /* CollectionViewCell.swift */; };
+		5529203E1BE00AFF00B0E457 /* ProgrmaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5529203D1BE00AFF00B0E457 /* ProgrmaViewController.swift */; };
 		559569401BD9309D009EBA5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595693F1BD9309D009EBA5F /* AppDelegate.swift */; };
 		559569421BD9309D009EBA5F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559569411BD9309D009EBA5F /* FirstViewController.swift */; };
 		559569441BD9309D009EBA5F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559569431BD9309D009EBA5F /* SecondViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5529203B1BE0069300B0E457 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		5529203D1BE00AFF00B0E457 /* ProgrmaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrmaViewController.swift; sourceTree = "<group>"; };
 		5595693A1BD9309D009EBA5F /* Foro Emprezando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foro Emprezando.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5595693E1BD9309D009EBA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5595693F1BD9309D009EBA5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 			children = (
 				5595693F1BD9309D009EBA5F /* AppDelegate.swift */,
 				559569411BD9309D009EBA5F /* FirstViewController.swift */,
+				5529203B1BE0069300B0E457 /* CollectionViewCell.swift */,
+				5529203D1BE00AFF00B0E457 /* ProgrmaViewController.swift */,
 				559569431BD9309D009EBA5F /* SecondViewController.swift */,
 				559569451BD9309D009EBA5F /* Main.storyboard */,
 				559569481BD9309D009EBA5F /* Images.xcassets */,
@@ -217,6 +223,8 @@
 			files = (
 				559569441BD9309D009EBA5F /* SecondViewController.swift in Sources */,
 				559569401BD9309D009EBA5F /* AppDelegate.swift in Sources */,
+				5529203E1BE00AFF00B0E457 /* ProgrmaViewController.swift in Sources */,
+				5529203C1BE0069300B0E457 /* CollectionViewCell.swift in Sources */,
 				559569421BD9309D009EBA5F /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +423,7 @@
 				5595695D1BD9309E009EBA5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5595695E1BD9309E009EBA5F /* Build configuration list for PBXNativeTarget "Foro EmprezandoTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +432,7 @@
 				559569601BD9309E009EBA5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
