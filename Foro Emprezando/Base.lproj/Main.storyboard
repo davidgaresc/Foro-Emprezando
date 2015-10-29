@@ -149,7 +149,7 @@
             </objects>
             <point key="canvasLocation" x="750" y="-321"/>
         </scene>
-        <!--Programa-->
+        <!--Foro 2015-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Foro_Emprezando" customModuleProvider="target" sceneMemberID="viewController">
@@ -166,104 +166,130 @@
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hK7-1I-HEQ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.4150489268" green="0.12556197050000001" blue="0.3126880957" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="JGE-Rw-pY0">
                                     <size key="itemSize" width="380" height="200"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
                                 </collectionViewFlowLayout>
+                                <imageView key="backgroundView" userInteractionEnabled="NO" alpha="0.19999999999999968" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo" id="xnf-4p-p7t">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="l5Z-eG-uBf" customClass="CollectionViewCell" customModule="Foro_Emprezando" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.050000000000000003" contentMode="center" reuseIdentifier="cell" id="l5Z-eG-uBf" customClass="CollectionViewCell" customModule="Foro_Emprezando" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="380" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <imageView userInteractionEnabled="NO" alpha="0.89999999999999991" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo1" translatesAutoresizingMaskIntoConstraints="NO" id="Npj-Io-gTb">
+                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P4v-Y9-umj">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="120" id="mP4-Pd-1kX"/>
+                                                        <constraint firstAttribute="height" constant="100" id="KT2-US-qIV"/>
+                                                        <constraint firstAttribute="width" constant="100" id="NmQ-2f-BM8"/>
                                                     </constraints>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="mP4-Pd-1kX"/>
+                                                            <exclude reference="KT2-US-qIV"/>
+                                                            <exclude reference="NmQ-2f-BM8"/>
                                                         </mask>
                                                     </variation>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <mask key="constraints">
-                                                            <include reference="mP4-Pd-1kX"/>
+                                                            <include reference="KT2-US-qIV"/>
+                                                            <include reference="NmQ-2f-BM8"/>
                                                         </mask>
                                                     </variation>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0UN-jk-iKN">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0UN-jk-iKN">
                                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.9885574494949495" green="0.9885574494949495" blue="0.9885574494949495" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vie-pd-41c">
-                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                </textView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ry6-7C-uyC">
+                                                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.98372395833333337" green="0.98372395833333337" blue="0.98372395833333337" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <color key="backgroundColor" red="0.48111097190000002" green="0.1491754539" blue="0.3665346142" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstItem="Vie-pd-41c" firstAttribute="bottom" secondItem="P4v-Y9-umj" secondAttribute="bottom" id="5jr-ce-OsI"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="Npj-Io-gTb" secondAttribute="bottom" constant="-8" id="6iI-9i-63G"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="Ry6-7C-uyC" secondAttribute="trailing" constant="20" id="8vg-kT-GU5"/>
+                                            <constraint firstItem="P4v-Y9-umj" firstAttribute="top" secondItem="0UN-jk-iKN" secondAttribute="bottom" constant="21" id="91I-9P-TWp"/>
                                             <constraint firstItem="0UN-jk-iKN" firstAttribute="top" secondItem="l5Z-eG-uBf" secondAttribute="topMargin" id="CZX-mu-Wyp"/>
-                                            <constraint firstItem="P4v-Y9-umj" firstAttribute="leading" secondItem="l5Z-eG-uBf" secondAttribute="leadingMargin" id="Hd5-cZ-xEq"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="Ry6-7C-uyC" secondAttribute="bottom" constant="36" id="GvP-Re-BXK"/>
+                                            <constraint firstItem="Npj-Io-gTb" firstAttribute="top" secondItem="l5Z-eG-uBf" secondAttribute="topMargin" constant="-8" id="JPX-nx-JRB"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="P4v-Y9-umj" secondAttribute="bottom" constant="42" id="NoQ-L0-3dT"/>
+                                            <constraint firstItem="Npj-Io-gTb" firstAttribute="leading" secondItem="l5Z-eG-uBf" secondAttribute="leadingMargin" constant="-8" id="OsS-FX-rLq"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="Npj-Io-gTb" secondAttribute="trailing" constant="-8" id="RMV-hd-T32"/>
                                             <constraint firstItem="0UN-jk-iKN" firstAttribute="trailing" secondItem="l5Z-eG-uBf" secondAttribute="trailingMargin" id="TFa-O4-9hz"/>
-                                            <constraint firstItem="Vie-pd-41c" firstAttribute="top" secondItem="P4v-Y9-umj" secondAttribute="top" id="WYU-mB-0PF"/>
-                                            <constraint firstItem="P4v-Y9-umj" firstAttribute="top" secondItem="l5Z-eG-uBf" secondAttribute="topMargin" constant="32" id="fr2-MC-hPx"/>
-                                            <constraint firstItem="Vie-pd-41c" firstAttribute="trailing" secondItem="0UN-jk-iKN" secondAttribute="trailing" id="iqf-ME-CXc"/>
-                                            <constraint firstItem="Vie-pd-41c" firstAttribute="leading" secondItem="P4v-Y9-umj" secondAttribute="trailing" constant="4" id="liU-Tx-9SF"/>
-                                            <constraint firstItem="P4v-Y9-umj" firstAttribute="centerY" secondItem="l5Z-eG-uBf" secondAttribute="centerY" id="xtQ-Af-PHO"/>
+                                            <constraint firstItem="Ry6-7C-uyC" firstAttribute="top" secondItem="0UN-jk-iKN" secondAttribute="bottom" constant="15" id="aKo-Yo-mTu"/>
+                                            <constraint firstItem="P4v-Y9-umj" firstAttribute="leading" secondItem="l5Z-eG-uBf" secondAttribute="leadingMargin" constant="18" id="cAo-cx-ad0"/>
+                                            <constraint firstItem="Ry6-7C-uyC" firstAttribute="leading" secondItem="P4v-Y9-umj" secondAttribute="trailing" constant="20" id="fNv-88-euA"/>
                                             <constraint firstItem="0UN-jk-iKN" firstAttribute="leading" secondItem="l5Z-eG-uBf" secondAttribute="leadingMargin" id="yWP-Tz-EGf"/>
                                         </constraints>
                                         <variation key="default">
                                             <mask key="subviews">
+                                                <exclude reference="Npj-Io-gTb"/>
                                                 <exclude reference="P4v-Y9-umj"/>
                                                 <exclude reference="0UN-jk-iKN"/>
-                                                <exclude reference="Vie-pd-41c"/>
+                                                <exclude reference="Ry6-7C-uyC"/>
                                             </mask>
                                             <mask key="constraints">
+                                                <exclude reference="6iI-9i-63G"/>
+                                                <exclude reference="JPX-nx-JRB"/>
+                                                <exclude reference="OsS-FX-rLq"/>
+                                                <exclude reference="RMV-hd-T32"/>
                                                 <exclude reference="CZX-mu-Wyp"/>
                                                 <exclude reference="TFa-O4-9hz"/>
                                                 <exclude reference="yWP-Tz-EGf"/>
-                                                <exclude reference="Hd5-cZ-xEq"/>
-                                                <exclude reference="fr2-MC-hPx"/>
-                                                <exclude reference="xtQ-Af-PHO"/>
-                                                <exclude reference="5jr-ce-OsI"/>
-                                                <exclude reference="WYU-mB-0PF"/>
-                                                <exclude reference="iqf-ME-CXc"/>
-                                                <exclude reference="liU-Tx-9SF"/>
+                                                <exclude reference="91I-9P-TWp"/>
+                                                <exclude reference="NoQ-L0-3dT"/>
+                                                <exclude reference="cAo-cx-ad0"/>
+                                                <exclude reference="8vg-kT-GU5"/>
+                                                <exclude reference="GvP-Re-BXK"/>
+                                                <exclude reference="aKo-Yo-mTu"/>
+                                                <exclude reference="fNv-88-euA"/>
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=compact">
                                             <mask key="subviews">
+                                                <include reference="Npj-Io-gTb"/>
                                                 <include reference="P4v-Y9-umj"/>
                                                 <include reference="0UN-jk-iKN"/>
-                                                <include reference="Vie-pd-41c"/>
+                                                <include reference="Ry6-7C-uyC"/>
                                             </mask>
                                             <mask key="constraints">
+                                                <include reference="6iI-9i-63G"/>
+                                                <include reference="JPX-nx-JRB"/>
+                                                <include reference="OsS-FX-rLq"/>
+                                                <include reference="RMV-hd-T32"/>
                                                 <include reference="CZX-mu-Wyp"/>
                                                 <include reference="TFa-O4-9hz"/>
                                                 <include reference="yWP-Tz-EGf"/>
-                                                <include reference="Hd5-cZ-xEq"/>
-                                                <include reference="fr2-MC-hPx"/>
-                                                <include reference="xtQ-Af-PHO"/>
-                                                <include reference="5jr-ce-OsI"/>
-                                                <include reference="WYU-mB-0PF"/>
-                                                <include reference="iqf-ME-CXc"/>
-                                                <include reference="liU-Tx-9SF"/>
+                                                <include reference="91I-9P-TWp"/>
+                                                <include reference="NoQ-L0-3dT"/>
+                                                <include reference="cAo-cx-ad0"/>
+                                                <include reference="8vg-kT-GU5"/>
+                                                <include reference="GvP-Re-BXK"/>
+                                                <include reference="aKo-Yo-mTu"/>
+                                                <include reference="fNv-88-euA"/>
                                             </mask>
                                         </variation>
                                         <connections>
                                             <outlet property="ProgramaLabel" destination="0UN-jk-iKN" id="lgG-iP-Tnb"/>
+                                            <outlet property="contenLabel" destination="Ry6-7C-uyC" id="ed2-sY-X8V"/>
                                             <outlet property="imageViewPrograma" destination="P4v-Y9-umj" id="zQu-uK-JbG"/>
                                         </connections>
                                     </collectionViewCell>
@@ -318,7 +344,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Programa" id="E2m-yY-0s8"/>
+                    <navigationItem key="navigationItem" title="Foro 2015" id="E2m-yY-0s8"/>
                     <connections>
                         <outlet property="collectionView" destination="hK7-1I-HEQ" id="MSD-b1-IKl"/>
                         <segue destination="fSS-Vi-X76" kind="show" identifier="showPrograma" id="Qae-Aw-tHj"/>
@@ -456,11 +482,11 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Programa-->
+        <!--Foro 2015-->
         <scene sceneID="Znv-xw-A5e">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TBk-Zu-80u" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Programa" image="iconoPro" id="cPa-gy-q4n">
+                    <tabBarItem key="tabBarItem" title="Foro 2015" image="iconoPro" id="cPa-gy-q4n">
                         <inset key="imageInsets" minX="2" minY="2" maxX="2" maxY="2"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -480,6 +506,7 @@
     </scenes>
     <resources>
         <image name="fondo" width="417" height="350"/>
+        <image name="fondo1" width="3295" height="2562"/>
         <image name="iconEmp" width="32" height="32"/>
         <image name="iconoPro" width="32" height="32"/>
     </resources>

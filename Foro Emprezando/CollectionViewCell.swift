@@ -13,4 +13,6 @@ class CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imageViewPrograma: UIImageView!
     @IBOutlet weak var ProgramaLabel: UILabel!
     @IBOutlet weak var prgramaTextView: UITextView!
+    @IBOutlet weak var contenLabel: UILabel!
+    
 }
